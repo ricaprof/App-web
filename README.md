@@ -30,6 +30,7 @@ O npm é instalado automaticamente com o Node.js. Para verificar se o npm está 
 ```bash
 npm -v
 ```
+
 ### 4. Instale o MySQL
 Certifique-se de ter o MySQL instalado. Você pode baixar a versão mais recente em [mysql.com](https://www.mysql.com/).
 ### 5. Instale o MySQL Workbench
