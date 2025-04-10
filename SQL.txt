@@ -1,0 +1,47 @@
+-- Criar banco de dados
+CREATE DATABASE IF NOT EXISTS `web`;
+
+-- Criar tabela gastos
+-- -----------------------------------------------------
+
+CREATE TABLE `web`.`gastos` (
+  `id_gastos` INT NOT NULL AUTO_INCREMENT,
+  `descricao` VARCHAR(45) NOT NULL,
+  `valor` INT NOT NULL,
+  `data` DATE NOT NULL,
+  `categoria` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`id_gastos`),
+  UNIQUE INDEX `id_gastos_UNIQUE` (`id_gastos` ASC) VISIBLE);
+
+INSERT INTO `web`.`gastos` (descricao, valor, data, categoria)
+VALUES
+('Pagamento ao Ricardo', -1200, '2025-04-01', 'Honorários'),
+('Reembolso Ricardo S.', -540, '2025-04-02', 'Transporte'),
+('Serviço prestado por Ricardo', 2300, '2025-04-03', 'Consultoria'),
+('Ajuda de custo Ricardo Lima', -800, '2025-04-04', 'Pessoal'),
+('Honorários Ricardo & Advogados', -3500, '2025-04-05', 'Honorários'),
+('Compra realizada por Ricardo', 450, '2025-04-06', 'Material'),
+('Reembolso Ricardo Silva', -1100, '2025-04-07', 'Transporte'),
+('Consultoria com Ricardo F.', 2700, '2025-04-08', 'Consultoria'),
+('Taxa repassada a Ricardo', 300, '2025-04-09', 'Custas'),
+('Serviço técnico - Ricardo Jr.', 1900, '2025-04-10', 'Tecnologia'),
+('Deslocamento - Ricardo R.', 380, '2025-04-11', 'Transporte'),
+('Pagamento mensal Ricardo', 1600, '2025-04-12', 'Pessoal'),
+('Diária paga a Ricardo', 700, '2025-04-13', 'Viagem'),
+('Taxa judicial paga por Ricardo', 650, '2025-04-14', 'Custas'),
+('Depósito para Ricardo Pires', 2400, '2025-04-15', 'Honorários'),
+('Transferência Ricardo A.', -1300, '2025-04-16', 'Financeiro'),
+('Reembolso Ricardo Alves', 920, '2025-04-17', 'Documentação'),
+('Pagamento extra Ricardo', -2100, '2025-04-18', 'Honorários'),
+('Adiantamento - Ricardo', 1400, '2025-04-19', 'Pessoal'),
+('Ricardo - reembolso viagem', -600, '2025-04-20', 'Viagem'),
+('Ricardo em deslocamento', 750, '2025-04-21', 'Transporte'),
+('Serviço de redação - Ricardo', 1250, '2025-04-22', 'Serviços'),
+('Pix enviado a Ricardo N.', 500, '2025-04-23', 'Financeiro'),
+('Ricardo Costa - consultoria', 2900, '2025-04-24', 'Consultoria'),
+('Reembolso documentos Ricardo', -430, '2025-04-25', 'Documentação'),
+('Ricardo - suporte técnico', 1700, '2025-04-26', 'Tecnologia'),
+('Pagamento duplicado - Ricardo', 1000, '2025-04-27', 'Ajustes'),
+('Honorários complementares Ricardo', 3100, '2025-04-28', 'Honorários'),
+('Despesas médicas Ricardo', 880, '2025-04-29', 'Saúde'),
+('Indenização paga a Ricardo', 4000, '2025-04-30', 'Indenização');
