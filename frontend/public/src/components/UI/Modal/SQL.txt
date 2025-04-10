@@ -1,0 +1,11 @@
+//Criar tabela gastos
+-- -----------------------------------------------------
+
+CREATE TABLE `web`.`gastos` (
+  `id_gastos` INT NOT NULL AUTO_INCREMENT,
+  `descricao` VARCHAR(45) NOT NULL,
+  `valor` INT NOT NULL,
+  `data` DATE NOT NULL,
+  `categoria` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`id_gastos`),
+  UNIQUE INDEX `id_gastos_UNIQUE` (`id_gastos` ASC) VISIBLE);

@@ -1,0 +1,80 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    white-space: nowrap;
+  }
+  
+  .btn__icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Variantes */
+  .btn--primary {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  
+  .btn--primary:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .btn--secondary {
+    background-color: var(--surface-light);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  
+  .btn--secondary:hover {
+    background-color: var(--border);
+  }
+  
+  .btn--positive {
+    background-color: var(--positive);
+    color: var(--white);
+  }
+  
+  .btn--positive:hover {
+    background-color: #00a884;
+  }
+  
+  .btn--negative {
+    background-color: var(--negative);
+    color: var(--white);
+  }
+  
+  .btn--negative:hover {
+    background-color: #c02a2a;
+  }
+  
+  /* Tamanhos */
+  .btn--small {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+  }
+  
+  .btn--medium {
+    padding: var(--space-sm) var(--space-md);
+    font-size: 1rem;
+  }
+  
+  .btn--large {
+    padding: var(--space-md) var(--space-lg);
+    font-size: 1.125rem;
+  }
+  
+  /* Estados */
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+  }

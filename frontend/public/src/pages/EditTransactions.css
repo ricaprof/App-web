@@ -1,0 +1,14 @@
+.edit-transaction-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .edit-transaction-page h1 {
+    color: var(--primary);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Reutilize os estilos do formulário do modal */
+  /* ... */

@@ -1,0 +1,44 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Cores para cada categoria */
+.badge--work {
+  background-color: rgba(108, 92, 231, 0.2);
+  color: #6c5ce7;
+}
+
+.badge--housing {
+  background-color: rgba(253, 203, 110, 0.2);
+  color: #fdcb6e;
+}
+
+.badge--food {
+  background-color: rgba(0, 206, 201, 0.2);
+  color: #00cec9;
+}
+
+.badge--transport {
+  background-color: rgba(129, 236, 236, 0.2);
+  color: #81ecec;
+}
+
+.badge--health {
+  background-color: rgba(255, 118, 117, 0.2);
+  color: #ff7675;
+}
+
+.badge--leisure {
+  background-color: rgba(253, 121, 168, 0.2);
+  color: #fd79a8;
+}
+
+.badge--other {
+  background-color: rgba(178, 190, 195, 0.2);
+  color: #b2bec3;
+}
