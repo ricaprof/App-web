@@ -37,9 +37,9 @@ Certifique-se de ter o MySQL instalado. Você pode baixar a versão mais recente
 Certifique-se de ter o MySQL Workbench instalado. Você pode baixar a versão mais recente em [mysql.com](https://www.mysql.com/products/workbench/).
 
 cd frontend
-```
 ### 2. Instale as dependências
 
+```
 ```bash
 npm i
 ```
