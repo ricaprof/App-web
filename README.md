@@ -1,4 +1,4 @@
-# 📦 Nome do Projeto
+# 📦 Projeto WEB
 
 Este projeto foi desenvolvido utilizando [Create React App](https://github.com/facebook/create-react-app) e tem como objetivo **[O objetivo do projeto é um protótipo de uma agenda]**.
 
