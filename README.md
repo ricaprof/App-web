@@ -27,7 +27,7 @@ Certifique-se de ter o Node.js instalado. Você pode baixar a versão mais recen
 ### 3. Instale o npm
 O npm é instalado automaticamente com o Node.js. Para verificar se o npm está instalado, execute o seguinte comando:
 
-```bash
+```
 npm -v
 ```
 
@@ -40,22 +40,21 @@ cd frontend
 ### 2. Instale as dependências
 
 ```
-```bash
 npm i
 ```
 ### 6. Inicie o frontend
 
-```bash
+```
 npm start
 ```
 `.
 
 ### 7. Acesse o backend
 cd backend
-```bash
+```
 npm i
 ```
-```bash
+```
 npm start
 ``` 
 ### 8. Acesse o projeto
